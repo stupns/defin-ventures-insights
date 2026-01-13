@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,9 +34,7 @@ const Header = () => {
       <div className="container mx-auto px-6 lg:px-12">
         <div className="flex items-center justify-between h-20 lg:h-24">
           <a href="#" className="flex items-center">
-            <span className="font-heading text-2xl lg:text-3xl tracking-[0.15em] font-light">
-              DeFin Ventures
-            </span>
+            <img src={logo} alt="Ventures DeFi" className="h-8 lg:h-10" />
           </a>
 
           {/* Desktop Navigation */}
