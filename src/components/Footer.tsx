@@ -1,3 +1,5 @@
+import logo from "@/assets/logo.png";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -7,9 +9,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <span className="font-heading text-2xl tracking-[0.15em] font-light block mb-4">
-              DeFin Ventures
-            </span>
+            <img src={logo} alt="Ventures DeFi" className="h-8 mb-4 invert" />
             <p className="text-sm text-background/60 max-w-md leading-relaxed">
               Institutional-grade digital asset management for high-net-worth individuals and family offices. Bringing trust, transparency, and exceptional returns to the digital asset space.
             </p>
