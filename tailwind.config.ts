@@ -39,6 +39,18 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
+        warm: {
+          DEFAULT: "hsl(var(--warm))",
+          foreground: "hsl(var(--warm-foreground))",
+        },
+        taupe: {
+          DEFAULT: "hsl(var(--taupe))",
+          foreground: "hsl(var(--taupe-foreground))",
+        },
+        gold: {
+          DEFAULT: "hsl(var(--gold))",
+          foreground: "hsl(var(--gold-foreground))",
+        },
         popover: {
           DEFAULT: "hsl(var(--popover))",
           foreground: "hsl(var(--popover-foreground))",
@@ -58,6 +70,10 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      fontFamily: {
+        heading: ["var(--font-heading)", "Georgia", "serif"],
+        body: ["var(--font-body)", "system-ui", "sans-serif"],
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
@@ -68,6 +84,10 @@ export default {
           from: {
             height: "0",
           },
+          to: {
+            height: "var(--radix-accordion-content-height)",
+          },
+        },
           to: {
             height: "var(--radix-accordion-content-height)",
           },
