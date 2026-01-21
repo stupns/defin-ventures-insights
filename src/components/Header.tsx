@@ -60,9 +60,11 @@ const Header = () => {
 
           {/* Mobile Menu Toggle */}
           <button
+            type="button"
             className="lg:hidden p-2"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            aria-label="Toggle menu"
+            aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={isMobileMenuOpen}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>

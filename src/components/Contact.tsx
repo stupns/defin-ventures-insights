@@ -65,21 +65,27 @@ const Contact = () => {
             <form className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <label className="text-label text-muted-foreground block mb-2">
+                  <label htmlFor="firstName" className="text-label text-muted-foreground block mb-2">
                     First Name
                   </label>
                   <input
+                    id="firstName"
+                    name="firstName"
                     type="text"
+                    autoComplete="given-name"
                     className="w-full px-4 py-3 bg-background border border-border focus:border-foreground outline-none transition-colors"
                     placeholder="John"
                   />
                 </div>
                 <div>
-                  <label className="text-label text-muted-foreground block mb-2">
+                  <label htmlFor="lastName" className="text-label text-muted-foreground block mb-2">
                     Last Name
                   </label>
                   <input
+                    id="lastName"
+                    name="lastName"
                     type="text"
+                    autoComplete="family-name"
                     className="w-full px-4 py-3 bg-background border border-border focus:border-foreground outline-none transition-colors"
                     placeholder="Smith"
                   />
@@ -87,21 +93,28 @@ const Contact = () => {
               </div>
 
               <div>
-                <label className="text-label text-muted-foreground block mb-2">
+                <label htmlFor="email" className="text-label text-muted-foreground block mb-2">
                   Email Address
                 </label>
                 <input
+                  id="email"
+                  name="email"
                   type="email"
+                  autoComplete="email"
                   className="w-full px-4 py-3 bg-background border border-border focus:border-foreground outline-none transition-colors"
                   placeholder="john@example.com"
                 />
               </div>
 
               <div>
-                <label className="text-label text-muted-foreground block mb-2">
+                <label htmlFor="investmentRange" className="text-label text-muted-foreground block mb-2">
                   Investment Range
                 </label>
-                <select className="w-full px-4 py-3 bg-background border border-border focus:border-foreground outline-none transition-colors appearance-none cursor-pointer">
+                <select
+                  id="investmentRange"
+                  name="investmentRange"
+                  className="w-full px-4 py-3 bg-background border border-border focus:border-foreground outline-none transition-colors appearance-none cursor-pointer"
+                >
                   <option value="">Select range</option>
                   <option value="100k-500k">$100,000 - $500,000</option>
                   <option value="500k-1m">$500,000 - $1,000,000</option>
@@ -111,10 +124,14 @@ const Contact = () => {
               </div>
 
               <div>
-                <label className="text-label text-muted-foreground block mb-2">
+                <label htmlFor="investorType" className="text-label text-muted-foreground block mb-2">
                   Investor Type
                 </label>
-                <select className="w-full px-4 py-3 bg-background border border-border focus:border-foreground outline-none transition-colors appearance-none cursor-pointer">
+                <select
+                  id="investorType"
+                  name="investorType"
+                  className="w-full px-4 py-3 bg-background border border-border focus:border-foreground outline-none transition-colors appearance-none cursor-pointer"
+                >
                   <option value="">Select type</option>
                   <option value="individual">Individual / HNWI</option>
                   <option value="family-office">Family Office</option>
@@ -124,10 +141,12 @@ const Contact = () => {
               </div>
 
               <div>
-                <label className="text-label text-muted-foreground block mb-2">
+                <label htmlFor="message" className="text-label text-muted-foreground block mb-2">
                   Message (Optional)
                 </label>
                 <textarea
+                  id="message"
+                  name="message"
                   rows={4}
                   className="w-full px-4 py-3 bg-background border border-border focus:border-foreground outline-none transition-colors resize-none"
                   placeholder="Tell us about your investment goals..."
