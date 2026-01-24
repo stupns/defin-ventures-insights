@@ -25,7 +25,7 @@ const Story = () => {
                 When COVID-19 disrupted global markets in 2020, our founder Jason Runyon—with over 8 years of crypto asset management experience—observed a troubling pattern: countless individuals falling victim to scams, misinformation, and uncertainty in the digital asset space.
               </p>
               <p>
-                Investro was founded to address this gap, providing assurance and education to investors while professionally managing their portfolios. What began as a mission to protect has evolved into a comprehensive asset management firm covering the entire digital asset ecosystem.
+                Ventures DeFi was founded to address this gap, providing assurance and education to investors while professionally managing their portfolios. What began as a mission to protect has evolved into a comprehensive asset management firm covering the entire digital asset ecosystem.
               </p>
               <p>
                 In 2025, Anastasiia Klochko joined as Co-Founder after meeting Jason at a conference in Germany. Bringing 5+ years of digital asset management experience across Europe and the UK, she added a new dimension to our global perspective.

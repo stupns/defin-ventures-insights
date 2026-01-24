@@ -33,7 +33,7 @@ const Hero = () => {
             className="text-refined text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-up"
             style={{ animationDelay: "0.3s" }}
           >
-            DeFin Ventures provides institutional-grade digital asset management for high-net-worth individuals and family offices. We bring transparency, discipline, and exceptional returns to the digital asset space.
+            Ventures DeFi provides institutional-grade digital asset management for high-net-worth individuals and family offices. We bring transparency, discipline, and exceptional returns to the digital asset space.
           </p>
 
           {/* CTAs */}
@@ -62,12 +62,12 @@ const Hero = () => {
             style={{ animationDelay: "0.5s" }}
           >
             <div className="text-center">
-              <p className="font-heading text-4xl lg:text-5xl font-light text-foreground mb-2">$20M+</p>
-              <p className="text-label text-muted-foreground">AUM</p>
+              <p className="font-heading text-4xl lg:text-5xl font-light text-foreground mb-2">$24.5M AUM</p>
+              <p className="text-label text-muted-foreground">Year 2026</p>
             </div>
             <div className="text-center">
               <p className="font-heading text-4xl lg:text-5xl font-light text-foreground mb-2">276%</p>
-              <p className="text-label text-muted-foreground">36-Month Return</p>
+              <p className="text-label text-muted-foreground">3 years (2023-2025)</p>
             </div>
             <div className="text-center">
               <p className="font-heading text-4xl lg:text-5xl font-light text-foreground mb-2">1.8</p>

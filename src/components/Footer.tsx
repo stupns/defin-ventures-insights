@@ -4,7 +4,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="py-16 bg-foreground text-background">
+    <footer className="py-16 bg-black text-background">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
           {/* Brand */}
@@ -53,14 +53,14 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="mailto:contact@investro.com"
+                  href="mailto:contact@venturesdefi.com"
                   className="text-sm text-background/80 hover:text-background transition-colors"
                 >
-                  contact@investro.com
+                  contact@venturesdefi.com
                 </a>
               </li>
               <li>
-                <span className="text-sm text-background/80">Cleveland, OH, USA</span>
+                <span className="text-sm text-background/80">Wyoming, USA</span>
               </li>
             </ul>
           </div>
@@ -69,7 +69,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-background/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-background/40">
-            © {currentYear} DeFin Ventures. All rights reserved.
+            © {currentYear} Ventures DeFi. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <a href="#" className="text-xs text-background/40 hover:text-background/80 transition-colors">

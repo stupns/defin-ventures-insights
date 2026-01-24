@@ -26,10 +26,10 @@ const Contact = () => {
                 <div>
                   <p className="text-label text-muted-foreground mb-1">Email</p>
                   <a
-                    href="mailto:contact@investro.com"
+                    href="mailto:contact@venturesdefi.com"
                     className="font-heading text-xl text-foreground hover:text-taupe transition-colors"
                   >
-                    contact@investro.com
+                    contact@venturesdefi.com
                   </a>
                 </div>
               </div>
@@ -41,7 +41,7 @@ const Contact = () => {
                 <div>
                   <p className="text-label text-muted-foreground mb-1">Location</p>
                   <p className="font-heading text-xl text-foreground">
-                    Cleveland, OH, USA
+                    Wyoming, USA
                   </p>
                 </div>
               </div>
