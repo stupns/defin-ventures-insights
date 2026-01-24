@@ -12,8 +12,8 @@ const metrics = [
   { label: "Sortino Ratio", value: "2.3" },
   { label: "Volatility", value: "11%" },
   { label: "Beta", value: "0.05" },
-  { label: "YTD Return", value: "32.94%" },
-  { label: "AUM", value: "$20.37M" },
+  { label: "Avg. July 2024 - September 2025", value: "32.94%" },
+  { label: "2026 AUM", value: "$24.5M" },
 ];
 
 const riskDistribution = [
@@ -42,7 +42,7 @@ const TrackRecord = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
           {/* Performance Chart */}
           <div className="bg-card border border-border p-6 lg:p-8">
-            <h3 className="heading-subsection text-foreground mb-2">36-Month Performance</h3>
+            <h3 className="heading-subsection text-foreground mb-2">36-Month Performance (2023-2025)</h3>
             <p className="text-sm text-muted-foreground mb-8">
               Kratos Fund leads with 2.8x returns vs major crypto and equity indices
             </p>

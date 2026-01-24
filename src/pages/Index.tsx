@@ -4,7 +4,7 @@ import Services from "@/components/Services";
 import TrackRecord from "@/components/TrackRecord";
 import Story from "@/components/Story";
 import Team from "@/components/Team";
-import Insights from "@/components/Insights";
+// import Insights from "@/components/Insights";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -18,7 +18,7 @@ const Index = () => {
         <TrackRecord />
         <Story />
         <Team />
-        <Insights />
+        {/*<Insights />*/}
         <Contact />
       </main>
       <Footer />
