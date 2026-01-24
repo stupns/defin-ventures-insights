@@ -56,6 +56,10 @@ const TrackRecord = () => {
             <h3 className="heading-subsection text-foreground mb-2">
               Kratos Fund vs. Market Benchmarks (2025)
             </h3>
+            <p className="text-sm text-muted-foreground mb-8">
+              Kratos Fund significantly outperforms major crypto and equity
+              indices on a risk-adjusted basis.
+            </p>
 
             <div className="h-80">
               <ResponsiveContainer width="100%" height="100%">
@@ -65,7 +69,7 @@ const TrackRecord = () => {
                   margin={{
                     left: 20,
                     right: 40,
-                    bottom: 28, // 🔑 місце для тік-лейблів
+                    bottom: 28,
                   }}
                 >
                   <CartesianGrid
@@ -77,8 +81,8 @@ const TrackRecord = () => {
 
                   <XAxis
                     type="number"
-                    domain={[0, 70]}
-                    ticks={[0, 10, 20, 30, 40, 50, 60, 70]}
+                    domain={[0, 80]}
+                    ticks={[0, 10, 20, 30, 40, 50, 60, 70, 80]}
                     interval={0}
                     minTickGap={0}
                     allowDecimals={false}
@@ -93,7 +97,7 @@ const TrackRecord = () => {
                     dataKey="name"
                     stroke="hsl(var(--muted-foreground))"
                     fontSize={12}
-                    width={80}
+                    width={90}
                   />
 
                   <Tooltip
