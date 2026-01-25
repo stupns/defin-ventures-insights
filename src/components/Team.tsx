@@ -6,7 +6,7 @@ import AnnaAvatar from "@/assets/photo/AnnaAvatar.jpg";
 const team = [
     {
         name: "Jason Runyon",
-        role: "Founder & Chief Executive Officer",
+        role: "Founder",
         bio: "With over 8 years of crypto asset management experience, Jason founded Ventures DeFi to bring institutional-grade management and education to the digital asset space. His disciplined approach and deep market understanding drive our investment strategies.",
         initials: "JR",
         photo: JasonAvatar,
@@ -14,7 +14,7 @@ const team = [
     },
     {
         name: "Anastasiia Klochko",
-        role: "Co-Founder & Chief Operations Officer",
+        role: "Co-Founder",
         bio: "Bringing 5+ years of digital asset management experience across Europe and the UK, Anastasiia joined as Co-Founder in 2025. Her operational excellence and international perspective strengthen our global capabilities.",
         initials: "AK",
         photo: AnnaAvatar,
