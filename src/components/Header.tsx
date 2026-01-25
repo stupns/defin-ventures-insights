@@ -34,7 +34,7 @@ const Header = () => {
       <div className="container mx-auto px-6 lg:px-12">
         <div className="flex items-center justify-between h-20 lg:h-24">
           <a href="#" className="flex items-center">
-            <img src={logo} alt="Ventures DeFi" className="h-8 lg:h-10" />
+            <img src={logo} alt="Ventures DeFi" className="h-14 lg:h-13" />
           </a>
 
           {/* Desktop Navigation */}
