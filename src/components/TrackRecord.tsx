@@ -18,16 +18,16 @@ const performanceData = [
 const metrics = [
   { label: "Sharpe Ratio", value: "3.2" },
   { label: "Sortino Ratio", value: "4.1" },
-  { label: "Volatility", value: "11%" },
+  { label: "Drawdown", value: "7.5%" },
   { label: "Beta", value: "0.05" },
   { label: "Full Year 2025 Return", value: "72.75%" },
   { label: "2026 AUM", value: "$35M" },
 ];
 
 const riskDistribution = [
-  { tier: "Conservative", percentage: 18.5, color: "bg-accent" },
-  { tier: "Moderate", percentage: 32.4, color: "bg-taupe" },
-  { tier: "Aggressive", percentage: 72.8, color: "bg-foreground" },
+  { tier: "Conservative", percentage: 25, color: "bg-accent" },
+  { tier: "Moderate", percentage: 45, color: "bg-taupe" },
+  { tier: "Aggressive", percentage: 30, color: "bg-foreground" },
 ];
 
 const TrackRecord = () => {

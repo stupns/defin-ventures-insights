@@ -74,7 +74,7 @@ const Hero = () => {
               <p className="text-label text-muted-foreground">Sharpe Ratio</p>
             </div>
             <div className="text-center">
-              <p className="font-heading text-4xl lg:text-5xl font-light text-foreground mb-2">8+</p>
+              <p className="font-heading text-4xl lg:text-5xl font-light text-foreground mb-2">20+</p>
               <p className="text-label text-muted-foreground">Years Experience</p>
             </div>
           </div>
