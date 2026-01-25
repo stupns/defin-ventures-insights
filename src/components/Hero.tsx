@@ -62,15 +62,15 @@ const Hero = () => {
             style={{ animationDelay: "0.5s" }}
           >
             <div className="text-center">
-              <p className="font-heading text-4xl lg:text-5xl font-light text-foreground mb-2">$24.5M AUM</p>
+              <p className="font-heading text-4xl lg:text-5xl font-light text-foreground mb-2">$35M AUM</p>
               <p className="text-label text-muted-foreground">Year 2026</p>
             </div>
             <div className="text-center">
-              <p className="font-heading text-4xl lg:text-5xl font-light text-foreground mb-2">276%</p>
+              <p className="font-heading text-4xl lg:text-5xl font-light text-foreground mb-2">312%</p>
               <p className="text-label text-muted-foreground">3 years (2023-2025)</p>
             </div>
             <div className="text-center">
-              <p className="font-heading text-4xl lg:text-5xl font-light text-foreground mb-2">1.8</p>
+              <p className="font-heading text-4xl lg:text-5xl font-light text-foreground mb-2">3.2</p>
               <p className="text-label text-muted-foreground">Sharpe Ratio</p>
             </div>
             <div className="text-center">

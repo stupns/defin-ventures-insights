@@ -1,25 +1,33 @@
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
 
 const performanceData = [
-  { name: "Kratos Fund", return: 276.52, fill: "hsl(var(--foreground))" },
-  { name: "Bitcoin", return: 185.3, fill: "hsl(var(--taupe))" },
-  { name: "Ethereum", return: 142.8, fill: "hsl(var(--accent))" },
-  { name: "S&P 500", return: 95.2, fill: "hsl(var(--muted-foreground))" },
+  { name: "Kratos Fund", return: 72.8, fill: "hsl(var(--foreground))" },
+  { name: "Bitcoin", return: 45.2, fill: "hsl(var(--taupe))" },
+  { name: "Ethereum", return: 38.5, fill: "hsl(var(--accent))" },
+  { name: "S&P 500", return: 12.4, fill: "hsl(var(--muted-foreground))" },
 ];
 
 const metrics = [
-  { label: "Sharpe Ratio", value: "1.8" },
-  { label: "Sortino Ratio", value: "2.3" },
+  { label: "Sharpe Ratio", value: "3.2" },
+  { label: "Sortino Ratio", value: "4.1" },
   { label: "Volatility", value: "11%" },
   { label: "Beta", value: "0.05" },
-  { label: "Avg. July 2024 - September 2025", value: "32.94%" },
-  { label: "2026 AUM", value: "$24.5M" },
+  { label: "Full Year 2025 Return", value: "72.75%" },
+  { label: "2026 AUM", value: "$35M" },
 ];
 
 const riskDistribution = [
-  { tier: "Conservative", percentage: 30, color: "bg-accent" },
-  { tier: "Moderate", percentage: 45, color: "bg-taupe" },
-  { tier: "Aggressive", percentage: 25, color: "bg-foreground" },
+  { tier: "Conservative", percentage: 18.5, color: "bg-accent" },
+  { tier: "Moderate", percentage: 32.4, color: "bg-taupe" },
+  { tier: "Aggressive", percentage: 72.8, color: "bg-foreground" },
 ];
 
 const TrackRecord = () => {
@@ -28,42 +36,66 @@ const TrackRecord = () => {
       <div className="container mx-auto px-6 lg:px-12">
         {/* Section Header */}
         <div className="max-w-3xl mb-16 lg:mb-24">
-          <span className="text-label text-muted-foreground block mb-4">Performance</span>
+          <span className="text-label text-muted-foreground block mb-4">
+            Performance
+          </span>
           <h2 className="heading-section text-foreground mb-6">
             Proven Track Record of
             <br />
             <span className="italic">Exceptional Returns</span>
           </h2>
           <p className="text-refined text-muted-foreground">
-            Our disciplined approach consistently outperforms major market benchmarks while maintaining robust risk management.
+            Our disciplined approach consistently outperforms major market
+            benchmarks while maintaining robust risk management.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
           {/* Performance Chart */}
           <div className="bg-card border border-border p-6 lg:p-8">
-            <h3 className="heading-subsection text-foreground mb-2">36-Month Performance (2023-2025)</h3>
-            <p className="text-sm text-muted-foreground mb-8">
-              Kratos Fund leads with 2.8x returns vs major crypto and equity indices
-            </p>
-            
+            <h3 className="heading-subsection text-foreground mb-2">
+              Kratos Fund vs. Market Benchmarks (2025)
+            </h3>
+
             <div className="h-80">
               <ResponsiveContainer width="100%" height="100%">
-                <BarChart data={performanceData} layout="vertical" margin={{ left: 20, right: 40 }}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" horizontal={true} vertical={false} />
-                  <XAxis 
-                    type="number" 
-                    tickFormatter={(value) => `${value}%`}
-                    stroke="hsl(var(--muted-foreground))"
-                    fontSize={12}
+                <BarChart
+                  data={performanceData}
+                  layout="vertical"
+                  margin={{
+                    left: 20,
+                    right: 40,
+                    bottom: 28, // 🔑 місце для тік-лейблів
+                  }}
+                >
+                  <CartesianGrid
+                    strokeDasharray="3 3"
+                    stroke="hsl(var(--border))"
+                    horizontal
+                    vertical={false}
                   />
-                  <YAxis 
-                    type="category" 
-                    dataKey="name" 
+
+                  <XAxis
+                    type="number"
+                    domain={[0, 70]}
+                    ticks={[0, 10, 20, 30, 40, 50, 60, 70]}
+                    interval={0}
+                    minTickGap={0}
+                    allowDecimals={false}
+                    tickMargin={8}
+                    fontSize={11}
+                    tickFormatter={(v) => `${v}%`}
+                    stroke="hsl(var(--muted-foreground))"
+                  />
+
+                  <YAxis
+                    type="category"
+                    dataKey="name"
                     stroke="hsl(var(--muted-foreground))"
                     fontSize={12}
                     width={80}
                   />
+
                   <Tooltip
                     formatter={(value: number) => [`${value}%`, "Return"]}
                     contentStyle={{
@@ -73,7 +105,12 @@ const TrackRecord = () => {
                       fontSize: "12px",
                     }}
                   />
-                  <Bar dataKey="return" radius={[0, 4, 4, 0]} />
+
+                  <Bar
+                    dataKey="return"
+                    radius={[0, 4, 4, 0]}
+                    isAnimationActive={false}
+                  />
                 </BarChart>
               </ResponsiveContainer>
             </div>
@@ -82,12 +119,21 @@ const TrackRecord = () => {
           {/* Metrics Dashboard */}
           <div className="space-y-8">
             <div className="bg-card border border-border p-6 lg:p-8">
-              <h3 className="heading-subsection text-foreground mb-6">Risk-Adjusted Metrics</h3>
+              <h3 className="heading-subsection text-foreground mb-6">
+                Risk-Adjusted Metrics (2025)
+              </h3>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                 {metrics.map((metric) => (
-                  <div key={metric.label} className="text-center p-4 bg-secondary/50">
-                    <p className="font-heading text-3xl font-light text-foreground mb-1">{metric.value}</p>
-                    <p className="text-label text-muted-foreground">{metric.label}</p>
+                  <div
+                    key={metric.label}
+                    className="text-center p-4 bg-secondary/50"
+                  >
+                    <p className="font-heading text-3xl font-light text-foreground mb-1">
+                      {metric.value}
+                    </p>
+                    <p className="text-label text-muted-foreground">
+                      {metric.label}
+                    </p>
                   </div>
                 ))}
               </div>
@@ -95,13 +141,19 @@ const TrackRecord = () => {
 
             {/* Risk Distribution */}
             <div className="bg-card border border-border p-6 lg:p-8">
-              <h3 className="heading-subsection text-foreground mb-6">Client Risk Tier Distribution</h3>
+              <h3 className="heading-subsection text-foreground mb-6">
+                Client Risk Tier Distribution
+              </h3>
               <div className="space-y-4">
                 {riskDistribution.map((tier) => (
                   <div key={tier.tier}>
                     <div className="flex justify-between mb-2">
-                      <span className="text-sm text-foreground">{tier.tier}</span>
-                      <span className="text-sm text-muted-foreground">{tier.percentage}%</span>
+                      <span className="text-sm text-foreground">
+                        {tier.tier}
+                      </span>
+                      <span className="text-sm text-muted-foreground">
+                        {tier.percentage}%
+                      </span>
                     </div>
                     <div className="h-2 bg-secondary rounded-full overflow-hidden">
                       <div
