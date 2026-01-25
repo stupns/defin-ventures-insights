@@ -39,11 +39,11 @@ const Footer = () => {
                   Team
                 </a>
               </li>
-              <li>
-                <a href="#insights" className="text-sm text-background/80 hover:text-background transition-colors">
-                  Insights
-                </a>
-              </li>
+              {/*<li>*/}
+              {/*  <a href="#insights" className="text-sm text-background/80 hover:text-background transition-colors">*/}
+              {/*    Insights*/}
+              {/*  </a>*/}
+              {/*</li>*/}
             </ul>
           </div>
 
@@ -72,13 +72,13 @@ const Footer = () => {
             © {currentYear} Ventures DeFi. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            <a href="#" className="text-xs text-background/40 hover:text-background/80 transition-colors">
+            <a href="/privacy" className="text-xs text-background/40 hover:text-background/80 transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="text-xs text-background/40 hover:text-background/80 transition-colors">
+            <a href="/terms" className="text-xs text-background/40 hover:text-background/80 transition-colors">
               Terms of Service
             </a>
-            <a href="#" className="text-xs text-background/40 hover:text-background/80 transition-colors">
+            <a href="/disclosures" className="text-xs text-background/40 hover:text-background/80 transition-colors">
               Disclosures
             </a>
           </div>
