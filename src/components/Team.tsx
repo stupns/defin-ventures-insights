@@ -1,6 +1,6 @@
 import { Linkedin } from "lucide-react";
 import JasonAvatar from "@/assets/photo/JasonAvatar.jpg";
-import AnnaAvatar from "@/assets/photo/AnnaAvatar.jpg";
+import AnnaAvatar from "@/assets/photo/AnnaAvatar2.jpg";
 
 const team = [
   {
