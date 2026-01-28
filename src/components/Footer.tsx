@@ -13,8 +13,7 @@ const Footer = () => {
                     <div className="lg:col-span-2">
                         <img src={logo} alt="Ventures DeFi" className="h-12 mb-4 invert"/>
                         <p className="text-sm text-background/60 max-w-md leading-relaxed">
-                            Institutional-grade digital asset management for high-net-worth individuals and family
-                            offices. Bringing trust, transparency, and exceptional returns to the digital asset space.
+                            Institutional-grade digital asset management for high-net-worth individuals, family offices, and institutional clients—delivering trust, transparency, and disciplined performance in the digital asset space.
                         </p>
                     </div>
 

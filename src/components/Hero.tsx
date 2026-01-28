@@ -38,10 +38,7 @@ const Hero = () => {
             className="text-refined text-muted-foreground max-w-2xl mx-auto mb-12 animate-fade-up"
             style={{ animationDelay: "0.3s" }}
           >
-            Ventures DeFi provides institutional-grade digital asset management
-            for high-net-worth individuals and family offices. We bring
-            transparency, discipline, and exceptional returns to the digital
-            asset space.
+            Ventures DeFi provides institutional-grade digital asset management for high-net-worth individuals, family offices, and institutional clients. We bring transparency, discipline, and a rigorous investment approach to the digital asset space.
           </p>
 
           {/* CTAs */}

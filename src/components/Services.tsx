@@ -1,6 +1,14 @@
-import { Briefcase, Building2, MessageSquare } from "lucide-react";
+import { Briefcase, Building2, MessageSquare,Landmark  } from "lucide-react";
 
 const services = [
+    {
+    icon: MessageSquare,
+    title: "Strategic Consultancy",
+    subtitle: "Open-Ended Advisory",
+    description:
+      "Begin your journey with a complimentary one-hour consultation. We assess your investment capacity, understand your goals, and craft a tailored roadmap for your digital asset strategy.",
+    features: ["1-hour free consultation", "Investment assessment", "Goal alignment", "Custom recommendations"],
+  },
   {
     icon: Briefcase,
     title: "Fully Managed Funds",
@@ -12,18 +20,18 @@ const services = [
   {
     icon: Building2,
     title: "Family Office Solutions",
-    subtitle: "For Traditional Finance Firms",
+    subtitle: "For Family Offices",
     description:
-      "Tailored solutions for family offices and traditional finance firms entering the digital asset space. Choose full management or partnership models that align with your business objectives.",
+      "Tailored solutions for family offices entering the digital asset space. Choose full management or partnership models that align with your business objectives.",
     features: ["White-label management", "Referral partnerships", "Educational support", "Seamless integration"],
   },
-  {
-    icon: MessageSquare,
-    title: "Strategic Consultancy",
-    subtitle: "Open-Ended Advisory",
+    {
+    icon: Landmark,
+    title: "Institutional Digital Asset Strategies",
+    subtitle: "FOR INSTITUTIONAL CLIENTS",
     description:
-      "Begin your journey with a complimentary one-hour consultation. We assess your investment capacity, understand your goals, and craft a tailored roadmap for your digital asset strategy.",
-    features: ["1-hour free consultation", "Investment assessment", "Goal alignment", "Custom recommendations"],
+      "Institutional-grade digital asset solutions for organizations seeking secure, scalable, and risk-managed exposure to digital markets. Our approach prioritizes governance, transparency, and operational rigor to support long-term investment objectives across the full portfolio lifecycle.",
+    features: ["Robust governance and oversight frameworks", "Institutional risk management and controls", "Transparent reporting and audit-ready processes", "Transparent reporting and audit-ready processes"],
   },
 ];
 
@@ -45,7 +53,7 @@ const Services = () => {
         </div>
 
         {/* Services Grid */}
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-2 gap-8">
           {services.map((service, index) => (
             <div
               key={service.title}
