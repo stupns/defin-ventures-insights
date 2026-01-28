@@ -5,16 +5,16 @@ import AnnaAvatar from "@/assets/photo/AnnaAvatar2.jpg";
 const team = [
   {
     name: "Jason Runyon",
-    role: "Founder & Chief Executive Officer",
-    bio: "With over 8 years of crypto asset management experience, Jason founded Ventures DeFi to bring institutional-grade management and education to the digital asset space. His disciplined approach and deep market understanding drive our investment strategies.",
+    role: "Founder",
+    bio: "Anastasiia Klochko is the Founder of JadeIntel, bringing over eight years of business experience and more than five years in Web3. She is a digital assets expert with a strong background in DeFi, data analytics, real-world assets (RWAs), and AI. Anastasiia leads JadeIntel’s vision, growth strategy, and strategic partnerships, driving long-term value and market expansion.",
     initials: "JR",
     photo: JasonAvatar,
     linkedin: "https://www.linkedin.com/in/jason-runyon/",
   },
   {
     name: "Anastasiia Klochko",
-    role: "Co-Founder & Chief Operations Officer",
-    bio: "Bringing 5+ years of digital asset management experience across Europe and the UK, Anastasiia joined as Co-Founder in 2025. Her operational excellence and international perspective strengthen our global capabilities.",
+    role: "Co-Founder",
+    bio: "Jason Runyon is the Co-Founder of JadeIntel, with over 30 years of business experience and more than 16 years in Web3. He brings deep expertise across decentralized finance, AI, data analytics, and infrastructure. Jason oversees operations and execution, ensuring scalable, data-driven growth.\n",
     initials: "AK",
     photo: AnnaAvatar,
     linkedin: "https://www.linkedin.com/in/anastasiia-klochko-701722355/",
