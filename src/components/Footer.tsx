@@ -1,5 +1,5 @@
 import logo from "@/assets/logo.png";
-import {Linkedin, Mail, MapPin} from "lucide-react";
+import {Linkedin, Mail, MapPin, PhoneOutgoing} from "lucide-react";
 
 
 const Footer = () => {
@@ -87,6 +87,18 @@ const Footer = () => {
                                 <div className="inline-flex items-center gap-2 text-sm text-background/80">
                                     <MapPin className="w-4 h-4"/>
                                     <span>Wyoming, USA</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="inline-flex items-center gap-2 text-sm text-background/80">
+                                    <PhoneOutgoing className="w-4 h-4"/>
+                                    <span>+1 505 633 5754</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div className="inline-flex items-center gap-2 text-sm text-background/80">
+                                    <PhoneOutgoing className="w-4 h-4"/>
+                                    <span>+44 7778 417577</span>
                                 </div>
                             </li>
                         </ul>

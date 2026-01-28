@@ -6,7 +6,7 @@ const team = [
   {
     name: "Jason Runyon",
     role: "Founder",
-    bio: "Anastasiia Klochko is the Founder of JadeIntel, bringing over eight years of business experience and more than five years in Web3. She is a digital assets expert with a strong background in DeFi, data analytics, real-world assets (RWAs), and AI. Anastasiia leads JadeIntel’s vision, growth strategy, and strategic partnerships, driving long-term value and market expansion.",
+    bio: "Jason Runyon is the Founder of Ventures DeFi, with over 30 years of business experience and more than 16 years in Web3. He brings deep expertise across decentralized finance, AI, data analytics, and infrastructure. Jason leads Ventures DeFi’s vision, growth strategy, and strategic partnerships, driving long-term value and market expansion.",
     initials: "JR",
     photo: JasonAvatar,
     linkedin: "https://www.linkedin.com/in/jason-runyon/",
@@ -14,7 +14,7 @@ const team = [
   {
     name: "Anastasiia Klochko",
     role: "Co-Founder",
-    bio: "Jason Runyon is the Co-Founder of JadeIntel, with over 30 years of business experience and more than 16 years in Web3. He brings deep expertise across decentralized finance, AI, data analytics, and infrastructure. Jason oversees operations and execution, ensuring scalable, data-driven growth.\n",
+    bio: "Anastasiia Klochko is the Co-Founder of Ventures DeFi, bringing over 8 years of business experience and more than 5 years in Web3. She is a digital assets expert with a strong background in DeFi, data analytics, real-world assets (RWAs), and AI. Anastasiia oversees operations, execution, and strategic partnerships, ensuring scalable, data-driven growth.",
     initials: "AK",
     photo: AnnaAvatar,
     linkedin: "https://www.linkedin.com/in/anastasiia-klochko-701722355/",
