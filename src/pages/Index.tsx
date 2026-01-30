@@ -1,4 +1,3 @@
-// path: src/pages/Index.tsx
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
@@ -13,15 +12,17 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
+
       <main>
         <Hero />
         <Services />
         <TrackRecord />
         <Story />
         <Team />
-        {/*<Insights />*/}
+
         <Contact />
       </main>
+
       <Footer />
     </div>
   );
