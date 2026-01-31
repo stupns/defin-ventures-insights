@@ -45,11 +45,18 @@ const Footer = () => {
                                     Team
                                 </a>
                             </li>
-                            {/*<li>*/}
-                            {/*  <a href="#insights" className="text-sm text-background/80 hover:text-background transition-colors">*/}
-                            {/*    Insights*/}
-                            {/*  </a>*/}
-                            {/*</li>*/}
+                            <li>
+                                <a href="#faq"
+                                   className="text-sm text-background/80 hover:text-background transition-colors">
+                                    FAQ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contact"
+                                   className="text-sm text-background/80 hover:text-background transition-colors">
+                                    Contact
+                                </a>
+                            </li>
                         </ul>
                     </div>
 

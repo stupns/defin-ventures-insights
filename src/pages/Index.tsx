@@ -5,8 +5,9 @@ import TrackRecord from "@/components/TrackRecord";
 import Story from "@/components/Story";
 import Team from "@/components/Team";
 // import Insights from "@/components/Insights";
-import Contact from "@/components/Contact";
+import FAQ from "@/components/Question.tsx";
 import Footer from "@/components/Footer";
+import Contact from "@/components/Contact.tsx";
 
 const Index = () => {
   return (
@@ -19,7 +20,7 @@ const Index = () => {
         <TrackRecord />
         <Story />
         <Team />
-
+        <FAQ />
         <Contact />
       </main>
 
