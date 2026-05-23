@@ -2,7 +2,6 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import TrackRecord from "@/components/TrackRecord";
-import Story from "@/components/Story";
 import Team from "@/components/Team";
 // import Insights from "@/components/Insights";
 import FAQ from "@/components/Question.tsx";
@@ -18,7 +17,6 @@ const Index = () => {
         <Hero />
         <Services />
         <TrackRecord />
-        <Story />
         <Team />
         <FAQ />
         <Contact />

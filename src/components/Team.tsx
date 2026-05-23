@@ -1,6 +1,5 @@
 import { Linkedin } from "lucide-react";
 import JasonAvatar from "@/assets/photo/JasonAvatar.jpg";
-import AnnaAvatar from "@/assets/photo/AnnaAvatar2.jpg";
 
 const team = [
   {
@@ -10,14 +9,6 @@ const team = [
     initials: "JR",
     photo: JasonAvatar,
     linkedin: "https://www.linkedin.com/in/jason-runyon/",
-  },
-  {
-    name: "Anastasiia Klochko",
-    role: "Co-Founder",
-    bio: "Anastasiia Klochko is the Co-Founder of Ventures DeFi, bringing over 8 years of business experience and more than 5 years in Web3. She is a digital assets expert with a strong background in DeFi, data analytics, real-world assets (RWAs), and AI. Anastasiia oversees operations, execution, and strategic partnerships, ensuring scalable, data-driven growth.",
-    initials: "AK",
-    photo: AnnaAvatar,
-    linkedin: "https://www.linkedin.com/in/anastasiia-klochko-701722355/",
   },
 ];
 
