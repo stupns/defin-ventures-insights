@@ -34,12 +34,6 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li>
-                                <a href="#story"
-                                   className="text-sm text-background/80 hover:text-background transition-colors">
-                                    Our Story
-                                </a>
-                            </li>
-                            <li>
                                 <a href="#team"
                                    className="text-sm text-background/80 hover:text-background transition-colors">
                                     Team
@@ -99,12 +93,6 @@ const Footer = () => {
                                 <div className="inline-flex items-center gap-2 text-sm text-background/80">
                                     <PhoneOutgoing className="w-4 h-4"/>
                                     <span>+1 505 633 5754</span>
-                                </div>
-                            </li>
-                            <li>
-                                <div className="inline-flex items-center gap-2 text-sm text-background/80">
-                                    <PhoneOutgoing className="w-4 h-4"/>
-                                    <span>+44 7778 417577</span>
                                 </div>
                             </li>
                         </ul>
